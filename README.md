@@ -1,8 +1,5 @@
-# Bot Starter Kit
+# Black Market Alexa
 
-###WIP
-
-trying to create a simple bot template to quickly and painlessly develop
-slackbots
+Alexa skill to access the black market and experiment with alexa skill building
 
 

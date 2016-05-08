@@ -26,9 +26,9 @@ alexaApp.intent('buy', {
 
 alexaApp.intent('specify', {
   slots: { "TYPE": "LITERAL" },
-  utterances: ["{I'll take|maybe|} {one dropped off by aliens|TYPE}"]
+  utterances: ["{I'll take|maybe|} {human|TYPE} {blood please|}"]
 }, (request, response) => {
-  response.say('Okay I\'ve found one that has been dropped off by aliens recently. Your shipment should arrive in approximately 2 days. Have a nice day!')
+  response.say('I too hunger for blood. A drone is headed your way with 10 pints')
 })
 
 alexaApp.launch((request, response) => {
